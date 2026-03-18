@@ -1,0 +1,74 @@
+:root {
+  --tm-bg: #2b2b2b;
+  --tm-nav: #8b008b; /* darkmagenta */
+  --tm-text: #f2f2f2;
+  --tm-muted: rgba(242, 242, 242, 0.72);
+  --tm-border: rgba(255, 255, 255, 0.12);
+}
+
+body {
+  background: black ;
+  color: var(--tm-text);
+}
+
+/* Navbar */
+.tm-navbar {
+  background: dark;
+}
+
+/* Cards */
+.tm-card {
+  background: #3a3a3a;
+  color: var(--tm-text);
+  border-color: var(--tm-border);
+}
+
+/* Inputs */
+.tm-input {
+  background: #2f2f2f;
+  color: var(--tm-text);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.tm-input:focus {
+  background: #2f2f2f;
+  color: var(--tm-text);
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: none;
+}
+
+/* List items */
+.list-group-item {
+  background: #3a3a3a;
+  color: var(--tm-text);
+  border-color: var(--tm-border);
+}
+
+/* ✅ Make Bootstrap muted text readable on dark UI */
+.text-muted,
+.form-text,
+.toast-header {
+  color: var(--tm-muted) !important;
+}
+
+/* Optional utility */
+.tm-muted {
+  color: var(--tm-muted) !important;
+}
+
+.toast {
+  background: #d1f7d6 !important; /* light green */
+  color: #0f3d1c !important;
+  border: 1px solid rgba(15, 61, 28, 0.15) !important;
+}
+
+.toast .toast-header {
+  background: #d1f7d6 !important;
+  color: #0f3d1c !important;
+  border-bottom: 1px solid rgba(15, 61, 28, 0.12) !important;
+}
+
+.toast .btn-close {
+  filter: none;
+  opacity: 0.7;
+}
